@@ -20,8 +20,9 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
+___CSS_LOADER_EXPORT___.push([module.id, "@import url(https://fonts.googleapis.com/css2?family=Abyssinica+SIL&family=Arvo:ital@1&family=Fascinate+Inline&family=Lemonada&family=Libre+Caslon+Display&family=Ms+Madi&display=swap);"]);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "h1 {\n  color: rgb(81, 255, 0);\n}", "",{"version":3,"sources":["webpack://./src/style/style.scss"],"names":[],"mappings":"AAAA;EACE,sBAAA;AACF","sourcesContent":["h1 {\n  color: rgb(81, 255, 0);\n}\n"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "*,\n::before,\n::after {\n  padding: 0;\n  margin: 0;\n  box-sizing: border-box;\n}\n\nbody {\n  display: grid;\n  grid-template: repeat(4, 200px)/repeat(4, 1fr);\n  font-family: \"Lemonada\", cursive;\n}\n\nnav {\n  display: grid;\n  grid-template-columns: repeat(4, 1fr);\n  grid-template-rows: repeat(2, 1fr);\n  grid-column: 2/-1;\n  grid-row: 1/2;\n  background-color: white;\n  padding: 1rem;\n  box-shadow: 2px 2px 10px grey;\n}\nnav .magnifier {\n  width: 20px;\n  height: 20px;\n  background-color: rgba(255, 255, 255, 0);\n}\nnav .search_bar {\n  grid-area: 1/1/2/3;\n}\nnav .links {\n  grid-area: 1/4/2/5;\n  display: flex;\n  flex-direction: row;\n  gap: 0.8rem;\n  align-items: center;\n}\nnav .greeting {\n  grid-area: 2/1/3/2;\n  display: flex;\n  flex-direction: row;\n  align-items: center;\n}\nnav .buttons {\n  display: flex;\n  grid-area: 2/4/3/5;\n  align-items: center;\n  gap: 0.5rem;\n}\nnav .buttons button {\n  padding: 0.5rem 0.7rem;\n  border-radius: 10px;\n  border: none;\n  font-weight: 900;\n  background-color: #818cf8;\n}\nnav form {\n  display: flex;\n  align-items: center;\n}\nnav input {\n  width: 25rem;\n  border-radius: 20px;\n  background-color: #818cf8;\n  border: none;\n  outline: none;\n  padding: 0.6rem;\n  margin-left: 0.4rem;\n}\nnav a:hover {\n  scale: 1.1;\n}\nnav img {\n  width: 40px;\n  height: 40px;\n}\n\n.sidebar {\n  background-color: #818cf8;\n  grid-column: 1/2;\n  grid-row: 1/-1;\n}\n.sidebar a {\n  text-decoration: none;\n  color: black;\n}\n.sidebar a:hover {\n  text-decoration: underline;\n}\n.sidebar .menu_container {\n  padding: 1rem;\n  display: grid;\n  grid-template-columns: repeat(2, 50px);\n  grid-template-rows: 6;\n}\n.sidebar .text_container {\n  grid-column: 2/3;\n}\n.sidebar .text_container > h3 {\n  display: block;\n  padding: 0.4rem;\n}\n.sidebar .img_container {\n  grid-column: 1/2;\n}\n.sidebar .img_container > img {\n  display: block;\n  width: 25px;\n  padding: 0.8rem 0;\n}\n.sidebar .title_container {\n  padding: 1rem;\n}\n.sidebar h1 {\n  display: inline;\n  margin-left: 1.8rem;\n}\n.sidebar .settings {\n  margin-top: 1rem;\n}\n\nmain {\n  grid-column: 2/-1;\n  grid-row: 2/-1;\n}\nmain .card > img {\n  width: 40px;\n  height: 40px;\n}", "",{"version":3,"sources":["webpack://./src/style/style.scss"],"names":[],"mappings":"AAUA;;;EAGE,UAAA;EACA,SAAA;EACA,sBAAA;AARF;;AAUA;EACE,aAAA;EACA,8CAAA;EACA,gCAfO;AAQT;;AASA;EACE,aAAA;EACA,qCAAA;EACA,kCAAA;EACA,iBAAA;EACA,aAAA;EACA,uBAAA;EACA,aAAA;EACA,6BAAA;AANF;AAOE;EACE,WAAA;EACA,YAAA;EACA,wCAAA;AALJ;AAOE;EACE,kBAAA;AALJ;AAOE;EACE,kBAAA;EACA,aAAA;EACA,mBAAA;EACA,WAAA;EACA,mBAAA;AALJ;AAOE;EACE,kBAAA;EACA,aAAA;EACA,mBAAA;EACA,mBAAA;AALJ;AAOE;EACE,aAAA;EACA,kBAAA;EACA,mBAAA;EACA,WAAA;AALJ;AAMI;EACE,sBAAA;EACA,mBAAA;EACA,YAAA;EACA,gBAAA;EACA,yBAtDM;AAkDZ;AAOE;EACE,aAAA;EACA,mBAAA;AALJ;AAOE;EACE,YAAA;EACA,mBAAA;EACA,yBAhEQ;EAiER,YAAA;EACA,aAAA;EACA,eAAA;EACA,mBAAA;AALJ;AAOE;EACE,UAAA;AALJ;AAOE;EACE,WAAA;EACA,YAAA;AALJ;;AAQA;EACE,yBA/EU;EAgFV,gBAAA;EACA,cAAA;AALF;AAME;EACE,qBAAA;EACA,YAAA;AAJJ;AAKI;EACE,0BAAA;AAHN;AAME;EACE,aAAA;EACA,aAAA;EACA,sCAAA;EACA,qBAAA;AAJJ;AAME;EACE,gBAAA;AAJJ;AAKI;EACE,cAAA;EACA,eAAA;AAHN;AAME;EACE,gBAAA;AAJJ;AAKI;EACE,cAAA;EACA,WAAA;EACA,iBAAA;AAHN;AAME;EACE,aAAA;AAJJ;AAME;EACE,eAAA;EACA,mBAAA;AAJJ;AAME;EACE,gBAAA;AAJJ;;AAQA;EACE,iBAAA;EACA,cAAA;AALF;AAME;EACE,WAAA;EACA,YAAA;AAJJ","sourcesContent":["@import url('https://fonts.googleapis.com/css2?family=Abyssinica+SIL&family=Arvo:ital@1&family=Fascinate+Inline&family=Lemonada&family=Libre+Caslon+Display&family=Ms+Madi&display=swap');\n\n$font-a: 'Abyssinica SIL', serif;\n$font-arv: 'Arvo', serif;\n$font-f: 'Fascinate Inline', cursive;\n$font-l: 'Lemonada', cursive;\n$font-lib: 'Libre Caslon Display', serif;\n$font-mandi: 'Ms Madi', cursive;\n$clr-light: #818cf8;\n\n*,\n::before,\n::after {\n  padding: 0;\n  margin: 0;\n  box-sizing: border-box;\n}\nbody {\n  display: grid;\n  grid-template: repeat(4, 200px) / repeat(4, 1fr);\n  font-family: $font-l;\n}\nnav {\n  display: grid;\n  grid-template-columns: repeat(4, 1fr);\n  grid-template-rows: repeat(2, 1fr);\n  grid-column: 2/-1;\n  grid-row: 1/2;\n  background-color: white;\n  padding: 1rem;\n  box-shadow: 2px 2px 10px grey;\n  .magnifier {\n    width: 20px;\n    height: 20px;\n    background-color: rgba(255, 255, 255, 0);\n  }\n  .search_bar {\n    grid-area: 1/1/2/3;\n  }\n  .links {\n    grid-area: 1/4/2/5;\n    display: flex;\n    flex-direction: row;\n    gap: 0.8rem;\n    align-items: center;\n  }\n  .greeting {\n    grid-area: 2/1/3/2;\n    display: flex;\n    flex-direction: row;\n    align-items: center;\n  }\n  .buttons {\n    display: flex;\n    grid-area: 2/4/3/5;\n    align-items: center;\n    gap: 0.5rem;\n    button {\n      padding: 0.5rem 0.7rem;\n      border-radius: 10px;\n      border: none;\n      font-weight: 900;\n      background-color: $clr-light;\n    }\n  }\n  form {\n    display: flex;\n    align-items: center;\n  }\n  input {\n    width: 25rem;\n    border-radius: 20px;\n    background-color: $clr-light;\n    border: none;\n    outline: none;\n    padding: 0.6rem;\n    margin-left: 0.4rem;\n  }\n  a:hover {\n    scale: 1.1;\n  }\n  img {\n    width: 40px;\n    height: 40px;\n  }\n}\n.sidebar {\n  background-color: $clr-light;\n  grid-column: 1/2;\n  grid-row: 1/-1;\n  a {\n    text-decoration: none;\n    color: black;\n    &:hover {\n      text-decoration: underline;\n    }\n  }\n  .menu_container {\n    padding: 1rem;\n    display: grid;\n    grid-template-columns: repeat(2, 50px);\n    grid-template-rows: 6;\n  }\n  .text_container {\n    grid-column: 2/3;\n    & > h3 {\n      display: block;\n      padding: 0.4rem;\n    }\n  }\n  .img_container {\n    grid-column: 1/2;\n    & > img {\n      display: block;\n      width: 25px;\n      padding: 0.8rem 0;\n    }\n  }\n  .title_container {\n    padding: 1rem;\n  }\n  h1 {\n    display: inline;\n    margin-left: 1.8rem;\n  }\n  .settings {\n    margin-top: 1rem;\n  }\n}\n//end of navbar\nmain {\n  grid-column: 2/-1;\n  grid-row: 2/-1;\n  .card > img {\n    width: 40px;\n    height: 40px;\n  }\n}\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -508,6 +509,166 @@ function styleTagTransform(css, styleElement) {
 
 module.exports = styleTagTransform;
 
+/***/ }),
+
+/***/ "./src/assets/bell.svg":
+/*!*****************************!*\
+  !*** ./src/assets/bell.svg ***!
+  \*****************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "bell.svg";
+
+/***/ }),
+
+/***/ "./src/assets/bunny.svg":
+/*!******************************!*\
+  !*** ./src/assets/bunny.svg ***!
+  \******************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "bunny.svg";
+
+/***/ }),
+
+/***/ "./src/assets/clock.svg":
+/*!******************************!*\
+  !*** ./src/assets/clock.svg ***!
+  \******************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "clock.svg";
+
+/***/ }),
+
+/***/ "./src/assets/eye.svg":
+/*!****************************!*\
+  !*** ./src/assets/eye.svg ***!
+  \****************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "eye.svg";
+
+/***/ }),
+
+/***/ "./src/assets/fork.svg":
+/*!*****************************!*\
+  !*** ./src/assets/fork.svg ***!
+  \*****************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "fork.svg";
+
+/***/ }),
+
+/***/ "./src/assets/group.svg":
+/*!******************************!*\
+  !*** ./src/assets/group.svg ***!
+  \******************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "group.svg";
+
+/***/ }),
+
+/***/ "./src/assets/home.svg":
+/*!*****************************!*\
+  !*** ./src/assets/home.svg ***!
+  \*****************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "home.svg";
+
+/***/ }),
+
+/***/ "./src/assets/layout.svg":
+/*!*******************************!*\
+  !*** ./src/assets/layout.svg ***!
+  \*******************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "layout.svg";
+
+/***/ }),
+
+/***/ "./src/assets/magnifier.svg":
+/*!**********************************!*\
+  !*** ./src/assets/magnifier.svg ***!
+  \**********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "magnifier.svg";
+
+/***/ }),
+
+/***/ "./src/assets/messages.svg":
+/*!*********************************!*\
+  !*** ./src/assets/messages.svg ***!
+  \*********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "messages.svg";
+
+/***/ }),
+
+/***/ "./src/assets/profile.svg":
+/*!********************************!*\
+  !*** ./src/assets/profile.svg ***!
+  \********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "profile.svg";
+
+/***/ }),
+
+/***/ "./src/assets/security.svg":
+/*!*********************************!*\
+  !*** ./src/assets/security.svg ***!
+  \*********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "security.svg";
+
+/***/ }),
+
+/***/ "./src/assets/settings.svg":
+/*!*********************************!*\
+  !*** ./src/assets/settings.svg ***!
+  \*********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "settings.svg";
+
+/***/ }),
+
+/***/ "./src/assets/star.svg":
+/*!*****************************!*\
+  !*** ./src/assets/star.svg ***!
+  \*****************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "star.svg";
+
+/***/ }),
+
+/***/ "./src/assets/support.svg":
+/*!********************************!*\
+  !*** ./src/assets/support.svg ***!
+  \********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "support.svg";
+
+/***/ }),
+
+/***/ "./src/assets/tasks.svg":
+/*!******************************!*\
+  !*** ./src/assets/tasks.svg ***!
+  \******************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "tasks.svg";
+
 /***/ })
 
 /******/ 	});
@@ -561,6 +722,18 @@ module.exports = styleTagTransform;
 /******/ 		};
 /******/ 	})();
 /******/ 	
+/******/ 	/* webpack/runtime/global */
+/******/ 	(() => {
+/******/ 		__webpack_require__.g = (function() {
+/******/ 			if (typeof globalThis === 'object') return globalThis;
+/******/ 			try {
+/******/ 				return this || new Function('return this')();
+/******/ 			} catch (e) {
+/******/ 				if (typeof window === 'object') return window;
+/******/ 			}
+/******/ 		})();
+/******/ 	})();
+/******/ 	
 /******/ 	/* webpack/runtime/hasOwnProperty shorthand */
 /******/ 	(() => {
 /******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
@@ -577,6 +750,26 @@ module.exports = styleTagTransform;
 /******/ 		};
 /******/ 	})();
 /******/ 	
+/******/ 	/* webpack/runtime/publicPath */
+/******/ 	(() => {
+/******/ 		var scriptUrl;
+/******/ 		if (__webpack_require__.g.importScripts) scriptUrl = __webpack_require__.g.location + "";
+/******/ 		var document = __webpack_require__.g.document;
+/******/ 		if (!scriptUrl && document) {
+/******/ 			if (document.currentScript)
+/******/ 				scriptUrl = document.currentScript.src
+/******/ 			if (!scriptUrl) {
+/******/ 				var scripts = document.getElementsByTagName("script");
+/******/ 				if(scripts.length) scriptUrl = scripts[scripts.length - 1].src
+/******/ 			}
+/******/ 		}
+/******/ 		// When supporting browsers where an automatic publicPath is not supported you must specify an output.publicPath manually via configuration
+/******/ 		// or pass an empty string ("") and set the __webpack_public_path__ variable from your code to use your own logic.
+/******/ 		if (!scriptUrl) throw new Error("Automatic publicPath is not supported in this browser");
+/******/ 		scriptUrl = scriptUrl.replace(/#.*$/, "").replace(/\?.*$/, "").replace(/\/[^\/]+$/, "/");
+/******/ 		__webpack_require__.p = scriptUrl;
+/******/ 	})();
+/******/ 	
 /******/ 	/* webpack/runtime/nonce */
 /******/ 	(() => {
 /******/ 		__webpack_require__.nc = undefined;
@@ -591,9 +784,75 @@ var __webpack_exports__ = {};
   \*************************/
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _style_style_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../style/style.scss */ "./src/style/style.scss");
+/* harmony import */ var _assets_layout_svg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../assets/layout.svg */ "./src/assets/layout.svg");
+/* harmony import */ var _assets_home_svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../assets/home.svg */ "./src/assets/home.svg");
+/* harmony import */ var _assets_clock_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../assets/clock.svg */ "./src/assets/clock.svg");
+/* harmony import */ var _assets_messages_svg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../assets/messages.svg */ "./src/assets/messages.svg");
+/* harmony import */ var _assets_tasks_svg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../assets/tasks.svg */ "./src/assets/tasks.svg");
+/* harmony import */ var _assets_security_svg__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../assets/security.svg */ "./src/assets/security.svg");
+/* harmony import */ var _assets_settings_svg__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../assets/settings.svg */ "./src/assets/settings.svg");
+/* harmony import */ var _assets_support_svg__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../assets/support.svg */ "./src/assets/support.svg");
+/* harmony import */ var _assets_group_svg__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../assets/group.svg */ "./src/assets/group.svg");
+/* harmony import */ var _assets_profile_svg__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../assets/profile.svg */ "./src/assets/profile.svg");
+/* harmony import */ var _assets_magnifier_svg__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../assets/magnifier.svg */ "./src/assets/magnifier.svg");
+/* harmony import */ var _assets_bell_svg__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../assets/bell.svg */ "./src/assets/bell.svg");
+/* harmony import */ var _assets_bunny_svg__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../assets/bunny.svg */ "./src/assets/bunny.svg");
+/* harmony import */ var _assets_star_svg__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../assets/star.svg */ "./src/assets/star.svg");
+/* harmony import */ var _assets_fork_svg__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../assets/fork.svg */ "./src/assets/fork.svg");
+/* harmony import */ var _assets_eye_svg__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ../assets/eye.svg */ "./src/assets/eye.svg");
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var titleImg = document.querySelector('.title_img');
+titleImg.src = _assets_layout_svg__WEBPACK_IMPORTED_MODULE_1__;
+var homeImg = document.querySelector('.home_img');
+homeImg.src = _assets_home_svg__WEBPACK_IMPORTED_MODULE_2__;
+var profileImg = document.querySelector('.profile_img');
+profileImg.src = _assets_profile_svg__WEBPACK_IMPORTED_MODULE_10__;
+var messagesImg = document.querySelector('.messages_img');
+messagesImg.src = _assets_messages_svg__WEBPACK_IMPORTED_MODULE_4__;
+var historyImg = document.querySelector('.history_img');
+historyImg.src = _assets_clock_svg__WEBPACK_IMPORTED_MODULE_3__;
+var tasksImg = document.querySelector('.tasks_img');
+tasksImg.src = _assets_tasks_svg__WEBPACK_IMPORTED_MODULE_5__;
+var groupImg = document.querySelector('.communities_img');
+groupImg.src = _assets_group_svg__WEBPACK_IMPORTED_MODULE_9__;
+var settingsImg = document.querySelector('.settings_img');
+settingsImg.src = _assets_settings_svg__WEBPACK_IMPORTED_MODULE_7__;
+var supportImg = document.querySelector('.support_img');
+supportImg.src = _assets_support_svg__WEBPACK_IMPORTED_MODULE_8__;
+var securityImg = document.querySelector('.privacy_img');
+securityImg.src = _assets_security_svg__WEBPACK_IMPORTED_MODULE_6__;
+var magnifierImg = document.querySelector('.magnifier');
+magnifierImg.src = _assets_magnifier_svg__WEBPACK_IMPORTED_MODULE_11__;
+var bellImg = document.querySelector('.bell');
+bellImg.src = _assets_bell_svg__WEBPACK_IMPORTED_MODULE_12__;
+var bunnyImg = document.querySelector('.bunny');
+bunnyImg.src = _assets_bunny_svg__WEBPACK_IMPORTED_MODULE_13__;
+var bunnyGreeting = document.querySelector('.bunny_greeting');
+bunnyGreeting.src = _assets_bunny_svg__WEBPACK_IMPORTED_MODULE_13__;
+var starImg = document.querySelector('.star');
+starImg.src = _assets_star_svg__WEBPACK_IMPORTED_MODULE_14__;
+var eyeImg = document.querySelector('.eye');
+eyeImg.src = _assets_eye_svg__WEBPACK_IMPORTED_MODULE_16__;
+var forkImg = document.querySelector('.fork');
+forkImg.src = _assets_fork_svg__WEBPACK_IMPORTED_MODULE_15__;
 })();
 
 /******/ })()
 ;
-//# sourceMappingURL=maincc22a07a1af091c5e982.js.map
+//# sourceMappingURL=main39d19749a35f255c2189.js.map
